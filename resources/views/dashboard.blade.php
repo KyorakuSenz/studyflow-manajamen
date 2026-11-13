@@ -58,29 +58,6 @@
                 </a>
             </nav>
 
-            <!-- Workspace Section -->
-            <div class="pt-2">
-                <div class="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-400 px-3 mb-2">
-                    <span>Workspace</span>
-                    <button class="hover:text-slate-600"><i class="fa-solid fa-plus text-[10px]"></i></button>
-                </div>
-                <div class="space-y-1">
-                    <a href="#" class="flex items-center space-x-3 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50 rounded-lg">
-                        <i class="fa-regular fa-folder w-4 text-center text-slate-400"></i>
-                        <span>Spring semester</span>
-                    </a>
-                    <a href="#" class="flex items-center space-x-3 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50 rounded-lg">
-                        <i class="fa-solid fa-user-group w-4 text-center text-slate-400"></i>
-                        <span>Study group</span>
-                    </a>
-                    <a href="#" class="flex items-center space-x-3 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50 rounded-lg">
-                        <i class="fa-solid fa-box-archive w-4 text-center text-slate-400"></i>
-                        <span>Resources</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
         <!-- Sidebar Footer -->
         <div class="p-4 border-t border-slate-100 space-y-4">
             @php
@@ -139,7 +116,6 @@
                 <div class="relative hidden sm:block w-48 lg:w-72">
                     <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-xs text-slate-400"></i>
                     <input type="text" placeholder="Search tasks..." class="w-full bg-slate-50 border border-slate-200 rounded-xl pl-8 pr-10 py-1.5 text-xs text-slate-700 focus:outline-none focus:border-indigo-400">
-                    <span class="absolute right-2.5 top-2 text-[10px] text-slate-400 font-semibold bg-slate-200/60 px-1.5 py-0.5 rounded">⌘K</span>
                 </div>
                 <button onclick="document.getElementById('taskModal').classList.remove('hidden')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs px-3 py-2 rounded-xl flex items-center space-x-1.5 shadow-sm transition">
                     <i class="fa-solid fa-plus text-[10px]"></i>

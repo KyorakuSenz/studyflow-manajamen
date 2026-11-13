@@ -22,7 +22,7 @@ class CourseController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'course_code'   => 'required|string|max:20',
+            'course_code'   => 'required|numeric|digits_between:1,20',
             'course_name'   => 'required|string|max:255',
             'lecturer_name' => 'required|string|max:255',
             'room'          => 'nullable|string|max:100',

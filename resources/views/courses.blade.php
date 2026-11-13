@@ -149,7 +149,13 @@
                 <div class="grid grid-cols-3 gap-3">
                     <div>
                         <label class="block text-xs font-semibold text-slate-600 mb-1">Kode MK</label>
-                        <input type="text" name="course_code" placeholder="CS 241" required class="w-full border border-slate-200 rounded-xl px-3 py-2 text-xs focus:outline-indigo-500">
+                        <input type="text" 
+                                name="course_code" 
+                                placeholder="Contoh: 776" 
+                                required 
+                                inputmode="numeric"
+                                oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                class="w-full border border-slate-200 rounded-xl px-3 py-2 text-xs focus:outline-indigo-500">
                     </div>
                     <div class="col-span-2">
                         <label class="block text-xs font-semibold text-slate-600 mb-1">Nama Mata Kuliah</label>
